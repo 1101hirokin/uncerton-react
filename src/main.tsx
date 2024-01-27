@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
-import "./index.css";
+import SampleApp from "./SampleApp.tsx";
 import { Uncerton } from "./components";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Uncerton>
-      <App />
+      <SampleApp />
     </Uncerton>
   </React.StrictMode>
 );
