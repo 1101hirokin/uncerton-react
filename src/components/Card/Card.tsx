@@ -21,7 +21,7 @@ type CardProps = Modify<
   }
 >;
 
-export const Card = ({
+export const Card: React.FC<CardProps> = ({
   element = "div",
   shape,
   shadowColor = "black",

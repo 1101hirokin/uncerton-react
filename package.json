@@ -1,6 +1,6 @@
 {
   "name": "uncerton-react",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "type": "module",
   "author": "Hiroki Nakatani <@1101hiroki_n>",
   "description": "Uncerton UI implemented with React",
@@ -38,8 +38,8 @@
     "uuid": "^9.0.1"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/chroma-js": "^2.4.3",
