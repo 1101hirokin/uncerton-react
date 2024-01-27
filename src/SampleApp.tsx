@@ -1,5 +1,4 @@
 import React from "react";
-import "./SampleApp.css";
 import { Button, Card, Icon, IconName, Text } from "./components";
 import { Colors, Elevation } from "./api";
 
