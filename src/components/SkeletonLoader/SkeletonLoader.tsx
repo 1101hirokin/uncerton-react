@@ -20,7 +20,9 @@ export const BlockSkeletonLoader = ({ ...rest }: BlockSkeletonLoaderProps) => {
 };
 
 type TextSkeletonLoaderProps = SkeletonLoaderProps & {};
-export const TextSkeletonLoader = ({ ...rest }: TextSkeletonLoaderProps) => {
+export const TextSkeletonLoader: React.FC<TextSkeletonLoaderProps> = ({
+  ...rest
+}) => {
   return (
     <div
       {...rest}

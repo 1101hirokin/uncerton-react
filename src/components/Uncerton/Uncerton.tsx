@@ -16,7 +16,7 @@ type UncertonProps = Modify<
   }
 >;
 
-export const Uncerton = (p: UncertonProps) => {
+export const Uncerton: React.FC<UncertonProps> = (p) => {
   const [currentThemeKey, setCurrentThemeKey] = useState<string>("light");
   const _themes: Record<string, Theme> = {
     light: StandardLightTheme,

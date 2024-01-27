@@ -218,7 +218,7 @@ type IconProps = Modify<
   { name: IconName; fill?: React.SVGAttributes<SVGElement>["fill"] }
 >;
 
-export const Icon = ({ name, fill, ...rest }: IconProps) => {
+export const Icon: React.FC<IconProps> = ({ name, fill, ...rest }) => {
   const InnerElement = ({
     name,
     fill,

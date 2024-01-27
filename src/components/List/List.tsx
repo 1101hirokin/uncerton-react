@@ -20,7 +20,7 @@ type ListItemProps = Modify<
     expand?: React.ReactNode;
   }
 >;
-export const ListItem = ({
+export const ListItem: React.FC<ListItemProps> = ({
   disabled,
   icon,
   trailing,

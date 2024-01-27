@@ -80,7 +80,7 @@ type TextProps = Modify<
     children?: React.ReactNode;
   }
 >;
-export const Text = ({ appearance, element, ...rest }: TextProps) => {
+export const Text: React.FC<TextProps> = ({ appearance, element, ...rest }) => {
   const Element = (() => {
     if (element) {
       return element;

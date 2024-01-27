@@ -24,7 +24,7 @@ type ButtonProps = Modify<
   }
 >;
 
-export const Button = ({
+export const Button: React.FC<ButtonProps> = ({
   color = "#000",
   textColor,
   appearance = "normal",
@@ -34,7 +34,7 @@ export const Button = ({
   disabled,
   wrapText,
   ...rest
-}: ButtonProps) => {
+}) => {
   const dsContext = useUncertonContext();
   const theme = dsContext.getCurrentTheme();
 

@@ -1,5 +1,5 @@
 "use client";
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import { Color, Elevation, getShadowsByElevation } from "../../api";
 import { Modify, buildClassName } from "../../utils";
 import styles from "./Avatar.module.css";
@@ -14,14 +14,14 @@ type AvatarProps = Modify<
   }
 >;
 
-export const Avatar = ({
+export const Avatar: React.FC<AvatarProps> = ({
   children,
   src,
   alt,
   elevation = 0,
   shadowColor = "black",
   ...rest
-}: AvatarProps) => {
+}) => {
   const shadowStr = useMemo(() => {
     const shadows = getShadowsByElevation(
       elevation,
