@@ -1,6 +1,6 @@
 {
   "name": "uncerton-react",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "type": "module",
   "author": "Hiroki Nakatani <@1101hiroki_n>",
   "description": "Uncerton UI implemented with React",
