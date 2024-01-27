@@ -1,6 +1,6 @@
 {
   "name": "uncerton-react",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "type": "module",
   "author": "Hiroki Nakatani <@1101hiroki_n>",
   "description": "Uncerton UI implemented with React",
@@ -33,6 +33,8 @@
   "dependencies": {
     "chroma-js": "^2.4.2",
     "clsx": "^2.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "uuid": "^9.0.1"
   },
   "peerDependencies": {
@@ -42,18 +44,18 @@
   "devDependencies": {
     "@types/chroma-js": "^2.4.3",
     "@types/node": "^20.11.8",
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@types/uuid": "^9.0.7",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.55.0",
+    "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "path": "^0.12.7",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
   },
   "private": false
 }

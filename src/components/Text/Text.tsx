@@ -1,3 +1,4 @@
+"use client";
 import { Modify, buildClassName } from "../../utils";
 import styles from "./Text.module.css";
 import React from "react";
