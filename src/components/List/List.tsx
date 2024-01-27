@@ -1,3 +1,4 @@
+"use client";
 import styles from "./List.module.css";
 import { Modify, buildClassName } from "../../utils";
 import React from "react";

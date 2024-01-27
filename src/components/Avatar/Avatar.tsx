@@ -1,3 +1,4 @@
+"use client";
 import { useMemo } from "react";
 import { Color, Elevation, getShadowsByElevation } from "../../api";
 import { Modify, buildClassName } from "../../utils";

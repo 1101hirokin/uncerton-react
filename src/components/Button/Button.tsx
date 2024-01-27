@@ -1,3 +1,4 @@
+"use client";
 import React, { useMemo } from "react";
 import { Modify, buildClassName } from "../../utils";
 import styles from "./Button.module.css";

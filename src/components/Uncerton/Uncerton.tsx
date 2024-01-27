@@ -1,3 +1,4 @@
+"use client";
 import "./Uncerton.css";
 import styles from "./Uncerton.module.css";
 import React, { useMemo, useState } from "react";

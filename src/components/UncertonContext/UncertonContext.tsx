@@ -1,3 +1,4 @@
+"use client";
 import { Theme } from "../../api";
 import { createContext, useContext } from "react";
 
