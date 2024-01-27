@@ -1,13 +1,16 @@
 {
   "name": "uncerton-react",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "type": "module",
-  "author": "Hiroki Nakatani",
+  "author": "Hiroki Nakatani <@1101hiroki_n>",
   "description": "Uncerton UI implemented with React",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/1101hirokin/uncerton-react"
+  },
+  "bugs": {
+    "url": "https://github.com/1101hirokin/uncerton-react/issues"
   },
   "keywords": [
     "react",
@@ -19,6 +22,7 @@
     "dist",
     "types"
   ],
+  "main": "dist/index.js",
   "types": "types/index.d.ts",
   "scripts": {
     "dev": "vite --host",
@@ -29,9 +33,11 @@
   "dependencies": {
     "chroma-js": "^2.4.2",
     "clsx": "^2.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "uuid": "^9.0.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/chroma-js": "^2.4.3",
