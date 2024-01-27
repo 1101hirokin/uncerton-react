@@ -1,0 +1,69 @@
+.TextComponent {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+.TextCore.h1 {
+  --n: 1;
+  font-weight: 600;
+}
+.TextCore.h2 {
+  --n: 2;
+  font-weight: 600;
+}
+.TextCore.h3 {
+  --n: 3;
+  font-weight: 600;
+}
+.TextCore.h4 {
+  --n: 4;
+  font-weight: 600;
+}
+.TextCore.h5 {
+  --n: 5;
+  font-weight: 600;
+}
+.TextCore.h6 {
+  --n: 6;
+  font-weight: 600;
+}
+.TextCore.body1 {
+  --n: 4;
+  font-weight: 400;
+}
+.TextCore.body2 {
+  --n: 5;
+  font-weight: 400;
+}
+.TextCore.caption {
+  --n: 5;
+  font-style: italic;
+  font-weight: 400;
+}
+.TextCore.overline {
+  --n: 5;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.TextCore.subtitle1 {
+  --n: 5;
+  font-weight: 600;
+}
+.TextCore.subtitle2 {
+  --n: 6;
+  font-weight: 600;
+}
+.TextCore.button {
+  --n: 5;
+  font-weight: 600;
+}
+
+.TextCore {
+  --n-text--font-size--base: var(--h-app--font-size--base, 14px);
+  --n-text--font-family: var(--h-app--font-family-normal);
+
+  line-height: 1.67;
+  font-size: calc(var(--n-text--font-size--base) * (6 / (var(--n, 1) + 2)));
+  font-family: var(--n-text--font-family);
+}

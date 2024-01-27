@@ -1,0 +1,29 @@
+.Uncerton {
+  max-width: 100vw;
+  height: 100vh;
+
+  position: relative;
+}
+
+.Uncerton > .layer {
+  width: 100%;
+  height: 100%;
+}
+
+.Uncerton > .layer.layer_rel {
+  position: relative;
+  pointer-events: none;
+}
+.Uncerton > .layer.layer_rel > * {
+  pointer-events: auto;
+}
+
+.Uncerton > .layer.layer_fixed {
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
+.Uncerton > .layer.layer_fixed > * {
+  pointer-events: auto;
+}
