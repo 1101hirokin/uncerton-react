@@ -11,5 +11,15 @@ export default defineConfig({
       name: "index",
       fileName: "index",
     },
+    sourcemap: true,
+    rollupOptions: {
+      external: ["react", "react-dom"],
+      output: {
+        globals: {
+          react: "React",
+          "react-dom": "ReactDOM",
+        },
+      },
+    },
   },
 });
