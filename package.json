@@ -1,6 +1,5 @@
 {
   "name": "@uncerton/react",
-  "private": true,
   "version": "1.0.0-alpha.0",
   "type": "module",
   "author": "Hiroki Nakatani",
@@ -47,5 +46,6 @@
     "path": "^0.12.7",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
-  }
+  },
+  "private": false
 }
