@@ -1,6 +1,6 @@
 {
   "name": "uncerton-react",
-  "version": "1.0.0-alpha.6",
+  "version": "1.0.0-alpha.7",
   "type": "module",
   "author": "Hiroki Nakatani <@1101hiroki_n>",
   "description": "Uncerton UI implemented with React",
@@ -20,7 +20,8 @@
   ],
   "files": [
     "dist",
-    "types"
+    "types",
+    "global.css"
   ],
   "main": "dist/index.js",
   "types": "types/index.d.ts",
@@ -54,6 +55,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "path": "^0.12.7",
+    "rollup-plugin-copy": "^3.5.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.12"
   },

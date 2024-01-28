@@ -60,8 +60,8 @@
 }
 
 .TextCore {
-  --n-text--font-size--base: var(--h-app--font-size--base, 14px);
-  --n-text--font-family: var(--h-app--font-family-normal);
+  --n-text--font-size--base: var(--u-app--font-size--base, 14px);
+  --n-text--font-family: var(--u-app--font-family-normal);
 
   line-height: 1.67;
   font-size: calc(var(--n-text--font-size--base) * (6 / (var(--n, 1) + 2)));

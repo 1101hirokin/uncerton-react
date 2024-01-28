@@ -12,6 +12,7 @@ dist
 dist-ssr
 types
 *.local
+global.css
 
 # Editor directories and files
 .vscode/*

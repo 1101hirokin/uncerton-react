@@ -35,7 +35,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  fill: var(--h-app--color--app--background-color, #fff);
+  fill: var(--u-app--color--app--background-color, #fff);
   filter: var(--h-avatar--drop-shadow);
 }
 
